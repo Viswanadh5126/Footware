@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StepStyle - Premium Footwear</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <h2>Our Products</h2>
+    <ul>
+      <li><a href="#">All</a></li>
+      <li><a href="#">Sneakers</a></li>
+      <li><a href="#">Heels</a></li>
+      <li><a href="#">Boots</a></li>
+      <li><a href="#">Casual</a></li>
+      <li><a href="#">Athletic</a></li>
+      <li><a href="#">Sandals</a></li>
+    </ul>
+  </aside>
+
+  <!-- Main Content -->
+  <div class="main-content">
+    <!-- Navbar -->
+    <header>
+      <div class="logo">StepStyle</div>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#Contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="search-cart">
+        <input type="text" placeholder="Search shoes...">
+        <div class="cart">🛒<span id="cart-count">0</span></div>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <h1>Step Up Your Style</h1>
+      <p>Discover premium footwear for every occasion.</p>
+    </section>
+
+    <!-- Products -->
+    <section id="products" class="products">
+      <div class="product-card">
+        <img src="https://m.media-amazon.com/images/I/614+cjRAPwL._SY695_.jpg" alt="Sneaker">
+        <div class="product-info">
+          <h3>Classic Sneaker</h3>
+          <span>Rs 1200</span>
+          <button onclick="addToCart()">Add to Cart</button>
+        </div>
+      </div>
+      <div class="product-card">
+        <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRylXKvRapHaMsgTA8UisGwuS8SC7Kyeot-bpGZrGVZFDr3e_M4I5Ev17bLopkfNnuWiPS1PNf4SSR0UJVGRsg27Khdq3T6cArfNVB3fiZYI57XXbZ7NNDstI5LsJ7BxAGRu08WOA&usqp=CAc=" alt="Running Shoes">
+        <div class="product-info">
+          <h3>Running Shoes</h3>
+          <span>Rs 1800</span>
+          <button onclick="addToCart()">Add to Cart</button>
+        </div>
+      </div>
+      <div class="product-card">
+        <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQCE8bIiWFgo4Fb7eeghPsdGLWJfTFsQJiukc844b6qN0QE_gk2MB9_CwSLeRimCwb4670lXZh9B2zVtudV1NCDK4aoCZe2s59YGkpLHOQIydf3lUC_Yoj7DA" alt="Casual Shoes">
+        <div class="product-info">
+          <h3>Casual Shoes</h3>
+          <span>Rs 900</span>
+          <button onclick="addToCart()">Add to Cart</button>
+        </div>
+      </div>
+      <div class="product-card">
+        <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQEsuYS5_PGz064fFrjna6qBlqVZMBAcHbK-8adDmaD_DhayIi7ewe_NSW8zBLPZVG0TZbj5k6ojBJLDMvNsfDUit2YWt2lxYFD4_xlifPzbmpcsyFvoAitpiw" alt="Sports Shoes">
+        <div class="product-info">
+          <h3>Sports Shoes</h3>
+          <span>Rs 2000</span>
+          <button onclick="addToCart()">Add to Cart</button>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+   
